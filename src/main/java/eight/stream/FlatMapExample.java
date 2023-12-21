@@ -13,6 +13,7 @@ public class FlatMapExample {
 
         List<List<Integer>> ll = Arrays.asList(ar1,ar2,ar3);
 
+
         ll.stream().flatMap(x-> x.stream()).forEach(System.out::print);
     }
 }
